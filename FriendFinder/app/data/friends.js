@@ -23,3 +23,25 @@ as an array of objects.
 ```
 
 */
+var friends = [
+    {
+        "name": "Mary Jane",
+        "photo": "",
+        "scores": [
+            3,
+            5,
+            1,
+            2,
+            4,
+            1,
+            5,
+            5,
+            3,
+            1
+        ]
+    }
+];
+
+console.log(friends[0]);
+
+module.exports = friends;
